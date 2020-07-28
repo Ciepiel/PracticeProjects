@@ -1,0 +1,51 @@
+html, body {
+    background-color: #000033;
+    font-family: 'Lucida Console', monospace;
+    text-align: center;
+}
+
+.container {
+    background-color: #000033;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #bdbdbd;
+    text-align: center
+}
+
+h1 {
+    color: #1a237e;
+    text-transform: uppercase;
+	font-weight: 600;
+}
+
+.content {
+    background-color: #bdbdbd;
+    text-align: center;
+}
+
+.list {
+    background-color: #d6eaf8;
+}
+
+.add-item {
+    background-color: #d6eaf8;
+    text-align: center
+}
+
+.plus-circle {
+    border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #04A1BF;
+	background-color: #000033;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
