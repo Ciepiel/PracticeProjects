@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>TO DO LIST</title>
-</head>
-<body>
-    <!--container for the whole content-->
-    <div class="container">
-        <!--header div-->
-        <div class="header">
-            <h1>Organize your Tasks</h1>
-            <div class="clear">
-                <!--button to refresh local storage-->
-                <i class="refresh"></i> 
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+        <title>TO DO LIST</title>
+    </head>
+
+    <body>
+        <!--container for the whole content-->
+        <div class="container">
+            <!--header div-->
+            <div class="header">
+                <h1>Organize your Tasks</h1>
+                <div class="clear">
+                    <!--button to refresh local storage-->
+                    <i class="refresh"></i> 
+                </div>
+            </div>
+
+            <!--content div-->
+            <div class="content">
+                <ul class="list">
+                    <!--completed task checkbox-->
+                    <i class="circle-complete"></i>
+                    <!--task test paragraph-->
+                    <p class="text">Study Coding</p>
+                    <!--delete task button-->
+                    <i class="trash-delete"></i>
+                </ul>
+
+                <!--adding task items section-->
+                <div class="add-item">
+                    <!--add new task icon-->
+                    <i class="plus-circle"></i>
+                    <!--input bar to add new task-->
+                    <input type="text" id="input" placeholder="Add to do">
+                </div>
             </div>
         </div>
 
-        <!--content div-->
-        <div class="content">
-            <ul class="list">
-                <!--completed task checkbox-->
-                <i class="circle-complete"></i>
-                <!--task test paragraph-->
-                <p class="text">Study Coding</p>
-                <!--delete task button-->
-                <i class="trash-delete"></i>
-            </ul>
+        <script  src="main.js"></script>
 
-            <!--adding task items section-->
-            <div class="add-item">
-                <!--add new task icon-->
-                <i class="plus-circle"></i>
-                <!--input bar to add new task-->
-                <input type="text" id="input" placeholder="Add to do">
-            </div>
-        </div>
-    </div>
-
-    <script  src="main.js"></script>
-
-</body>
-</html>
+    </body>
+    </html>
