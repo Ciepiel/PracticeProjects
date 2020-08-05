@@ -20,6 +20,29 @@ h1 {
   text-transform: uppercase;
 }
 
+.refresh {
+    position: absolute;
+    top: 20px;
+    right: 32px;
+    display: inline;
+    padding: 12px 20px;
+    margin: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 100%;
+}
+
+.refresh:hover {
+    background-color: black;
+    color: white;
+}
+
 .plus-circle {
     display: inline;
     padding: 12px 20px;
